@@ -1,3 +1,5 @@
+/** @format */
+
 .App {
   text-align: center;
 }
@@ -35,4 +37,37 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  background-color: #141414 !important;
+}
+
+.nav {
+  background-color: #141414 !important;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.card-img {
+  height: 260px;
+}
+.card-body {
+  padding: 0 !important;
+}
+#card {
+  background: inherit;
+  border: none;
+  color: white;
+}
+.card-text {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.lists {
+  display: flex;
+  justify-content: center;
 }
